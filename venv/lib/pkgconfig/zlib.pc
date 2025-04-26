@@ -1,0 +1,13 @@
+prefix=/Volumes/Personal /Final year Project2/venv
+exec_prefix=/Volumes/Personal /Final year Project2/venv
+libdir=/Volumes/Personal /Final year Project2/venv/lib
+sharedlibdir=/Volumes/Personal /Final year Project2/venv/lib
+includedir=/Volumes/Personal /Final year Project2/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
